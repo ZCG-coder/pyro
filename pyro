@@ -110,8 +110,6 @@ class CoreUI(object):
         the lexer to be used for text decoration.
     """
     def __init__(self, lexer):
-        self.sourcestamp = {}
-        self.filestamp = {}
         self.uiopts = []
         self.lexer = lexer
         self.lastRegexp = ""
